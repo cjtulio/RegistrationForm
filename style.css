@@ -16,7 +16,7 @@ body {
   min-height: 100vh;
 }
 
-/* ---------- Side panel ---------- */
+
 .side-panel {
   width: 320px;
   flex-shrink: 0;
@@ -71,7 +71,7 @@ body {
   color: #9fa8da;
 }
 
-/* ---------- Form panel ---------- */
+
 .form-panel {
   flex: 1;
   display: flex;
@@ -210,7 +210,7 @@ button:active {
   background: #cfd8dc;
 }
 
-/* ---------- Tablet ---------- */
+
 @media (max-width: 900px) {
   .side-panel {
     width: 260px;
@@ -224,7 +224,7 @@ button:active {
   }
 }
 
-/* ---------- Mobile ---------- */
+
 @media (max-width: 640px) {
   .page {
     flex-direction: column;
